@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(194, 202, 239);
+}
+.h1{
+    font-style: normal;
+    background-color: rgb(219, 174, 207);
+    text-align: center;
+    color: #ddd;
+    height: auto;
+    width: auto;
+}
+.p{
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 79px;
+    text-align: center;
+    text-box: var(p);
+    color:rgb(194, 194, 70);
+    color:hsl(197,50%,47%)
+   
+}
+.box1{
+    width: 500px;
+    height: 200px;
+    background-color: red;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(89, 209, 63);
+}

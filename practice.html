@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <style>
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            :root{
+                 --primary:    #6c63ff;
+      --dark:       #1a1a2e;
+      --surface:    #16213e;
+      --card:       #0f3460;
+      --accent:     #e94560;
+      --text:       #eaeaea;
+      --muted:      #a0a0c0;
+      --border:     #2a2a4a;
+      --radius:     12px;
+      --transition: 0.3s ease;
+      --font:       'Poppins', sans-serif;
+            }
+            body{
+                font-family: var(--dark);
+            }
+            .nav-links{
+                display: flex;
+                gap: 2rem;
+                list-style: none;
+            }
+        </style>
+        <a href="">Skip to main content</a><br/>
+        <strong>Ankitha</strong>
+<nav aria-label="Main navigation">
+    <span class="nav-brand">Ankitha</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+        <img src="" alt="avtar">
+        <section id="about">
+        <h1>Ankitha</h1>
+        <i>Frontend developer-Open Source Entusiast</i>
+        <p>Hi! I build fast, accessible, and beautiful web experiences. I'm passionate about semantic HTML, clean CSS, and writing JavaScript that doesn't make future-me cry.</p>
+        <p>Based in <strong>Bengaluru,India</strong></p>
+        <a href="">knankitha@gmail.com</a>       <a href="">  Github</a></section>
+        <h1>Skills</h1>
+        <caption>Technical skills and proficiency levels</caption>
+        <table>
+            <thead>
+            <tr>
+            <th scope="col">Technology</th>
+            <th scope="col">Category</th>
+            <th scope="col">Proficiency</th>
+            <th scope="col">Years of Experience</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td>expert</td>
+                <td>5</td>
+                </tr>
+                <tr>
+            <td>CSS3 / Flexbox / Grid</td>
+            <td>Styling</td>
+            <td>Expert</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>JavaScript (ES6+)</td>
+            <td>Programming</td>
+            <td>Advanced</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>React</td>
+            <td>Framework</td>
+            <td>Intermediate</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Git &amp; GitHub</td>
+            <td>Version Control</td>
+            <td>Advanced</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Accessibility (WCAG)</td>
+            <td>Best Practices</td>
+            <td>Intermediate</td>
+            <td>2</td>
+          </tr>
+          </tbody>
+        </table>
+
+        <hr>
+        <h2>Projects</h2>
+        <h3>Weather Dashboard</h3>
+        <p>A responsive weather app that fetches live data from the OpenWeather API. Built with vanilla JavaScript and CSS Grid. Fully keyboard-navigable.</p>
+        <strong>Tech:</strong><p>HTML CSS Javascript restapi</p>
+        <a href="">View on Github</a>
+        <a href="">Live demo</a>
+        <details>
+            <summary>Key features</summary>
+            <ul>
+                <li>Drag and drop</li>
+                <li>Priority label</li>
+            </ul>
+        </details>
+        <hr>
+        <section id="contact">
+            <h2>Contact me</h2>
+            <p>Have a project in mind? Fill in the form below and I'll get back to you within 24 hours</p>
+            <fieldset>
+            <legend>Your details</legend>
+            <label>Name:</label>
+            <input type="text" id="full name" name="full name" placeholder="John" required><br/><br/>
+            <label>Email:</label>
+            <input type="email" id="email" name="email" placeholder="John@gmail.com" required><br/><br/>
+            <button>Submit</button>
+            </fieldset>
+            <fieldset>
+                <legend>Your Message</legend>
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" required>
+                <option value="">--Select a topic--</option>
+                <option value="freelance">Freelance</option>
+                </select>
+            </fieldset>
+        </section>
+        
+    </body>
+</html>
